@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>ThunderHack</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: #00ffcc;
+            text-shadow: 0 0 20px #00ffcc;
+        }
+
+        p {
+            color: #aaa;
+            margin-bottom: 40px;
+        }
+
+        .download-btn {
+            padding: 15px 40px;
+            font-size: 18px;
+            color: white;
+            background: #00ffcc;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 0 15px #00ffcc;
+        }
+
+        .download-btn:hover {
+            background: #00ccaa;
+            box-shadow: 0 0 25px #00ffcc;
+            transform: scale(1.05);
+        }
+
+        .card {
+            background: rgba(255,255,255,0.05);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>ThunderHack</h1>
+        <p>download</p>
+
+        <a href="thunderhack-1.7.jar" download>
+            <button class="download-btn">⬇ Download</button>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
